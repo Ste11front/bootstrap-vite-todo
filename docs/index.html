@@ -1,31 +1,24 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <base href="/bootstrapVite-es/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ToDo Manager</title>
-    
-    <script type="module" crossorigin src="./assets/index-8669c63d.js"></script>
-    <link rel="stylesheet" href="./assets/index-5edc0b0c.css">
   </head>
+  
   <body>
     <header>
         <h1>ToDo</h1>
         <h3 class="changingText">Mastermind</h3>
-
-
     </header>
-
-
 
     <div class="order">
         <div class="btn-group" role="group">
             <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Order by:
+              System by:
             </button>
             <ul class="dropdown-menu">
-              <li><a id="orderAZ" class="dropdown-item" href="#">Name A-Z</a></li>
+              <li><a id="orderAZ" class="dropdown-item" href="#">Alphabetical order</a></li>
               <li><a id="orderDate" class="dropdown-item" href="#">Creation date</a></li>
             </ul>
           </div>        
@@ -38,7 +31,6 @@
   </div>
 
   <div>
-    <!-- A modal dialog containing a form -->
     <dialog id="newShowDialog">
         <form id="create-form" name="create" method="dialog">
             <div>
@@ -50,7 +42,7 @@
                 <button id="confirmBtn" class="btn btn-primary" type="submit" formmethod="dialog">Confirm</button>
             </div>
             <div>
-              <span>Your To Do will be added with the current date, and in an incomplete state.</span>
+              <span>Il To Do will be added with the current date, and in an incomplete state.</span>
             </div>
         </form>
     </dialog>
@@ -58,6 +50,6 @@
         <button id="showDialog">+</button>
 
 </div>
-    
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
