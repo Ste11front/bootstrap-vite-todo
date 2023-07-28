@@ -184,10 +184,12 @@ const words = [
     "Organizer",
     "Planner",
     "Arranger",
+    "Mastermind",
     "Maker",
     "Builder",
     "Creator",
-    "Formulator"
+    "Formulator",
+    "Architect"
 ];
 
 setInterval(changeText, 3500);
