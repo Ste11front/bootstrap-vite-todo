@@ -13,5 +13,5 @@ export class Todo{
     compareByDate(todo){
         return todo.creationDate.getTime() - this.creationDate.getTime();
     }
-    
+
 }
