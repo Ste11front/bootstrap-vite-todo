@@ -179,24 +179,16 @@ function addTodo(){
     }
 }
 
-
-function changeHeader(){
-    document.querySelector('h1').innerHTML='lo sapevo che non avresti resistito!!!'
-}
-
 const words = [
     "Manager",
     "Organizer",
     "Planner",
     "Arranger",
-    "Mastermind",
     "Maker",
     "Builder",
     "Creator",
-    "Formulator",
-    "Architect"
+    "Formulator"
 ];
-
 
 setInterval(changeText, 3500);
 
