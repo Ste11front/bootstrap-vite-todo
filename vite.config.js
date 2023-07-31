@@ -1,4 +1,4 @@
-const path = require('path')
+// in package.json, aggiungere -> "build": "vite build",
 
 export default {
   root: path.resolve(__dirname, 'src'),
