@@ -84,7 +84,7 @@ function render(){
         divBody.appendChild(dateSpan);
 
         const completeBtn = document.createElement('button');
-        const completeNode = document.createTextNode( todo.isCompleted ? 'Uncomplete' : 'Completed');
+        const completeNode = document.createTextNode( todo.isCompleted ? 'Completed' : 'Uncomplete');
         completeBtn.classList.add('btn', 'btn-primary');
         completeBtn.type = 'button';
         completeBtn.addEventListener('click', () => {
@@ -184,12 +184,10 @@ const words = [
     "Organizer",
     "Planner",
     "Arranger",
-    "Mastermind",
     "Maker",
     "Builder",
     "Creator",
-    "Formulator",
-    "Architect"
+    "Formulator"
 ];
 
 setInterval(changeText, 3500);
